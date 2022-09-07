@@ -1,0 +1,43 @@
+executar o git bash
+ls para ver os arquivos
+git init (cria um arquivo git oculto)
+git add -A para adicionar todos os arquivos
+git status para ver os arquivos criados
+git commit -m "adicionado texto Marcelo" (escrever entre aspas o que foi 
+feito  nesta versão)
+
+criar um novo repositório no github
+salvar o endereço:
+https://github.com/marsuga4/tutorial1-controle-de-vers-o.git
+
+no git bash digitar:
+
+git remote add origin https://github.com/marsuga4/tutorial1-controle-de-versao.git
+(definir para onde estamos enviando)
+
+git push -u origin master
+enviar definitivamente
+
+se houver alguma alteração no arquivo conseguimos ver com o comando
+git status (vai mostrar modified)
+
+git add -A vai adicionar todos os arquivos alterados
+
+$ git commit -m "adicionado o texto controle de versão" 
+(mostrar a segunda alteração)
+
+git push (enviar)
+
+após fazer a alteração em um arquivo, verificar pelo 
+git status
+
+digitar git add . (adiciona o arquivo que foi alterado)
+
+$ git commit -m "adicionado a segunda versão" 
+
+git push para enviar ao github
+
+git reflog para verificar todas as versões
+
+git reset --hard id (volta localmente a versão escolhida)
+
